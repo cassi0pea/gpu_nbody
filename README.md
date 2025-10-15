@@ -8,6 +8,7 @@ This project features a great deal of code heavily translated from, inspired by,
 - **Rendering system and constants**: Adapted from [Peter Whidden](https://github.com/PWhiddy/Nbody-Gravity)
 ## Requirements
 I have no idea. Cmake, probably? This is my first time putting a project out like this, I have no idea how to make sure anyone else on the planet can run it.
+FFMpeg if you wanna create a video at the end of the sim.
 
 ## Installation and running
 clone the repo, go into the build folder, type "make" in the terminal,
