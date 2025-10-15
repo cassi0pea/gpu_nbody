@@ -1,0 +1,1 @@
+/usr/bin/c++ -fopenmp -Wl,--dependency-file=CMakeFiles/gpu_nbody.dir/link.d CMakeFiles/gpu_nbody.dir/quadtree.cpp.o CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o CMakeFiles/gpu_nbody.dir/simulation.cpp.o CMakeFiles/gpu_nbody.dir/utils.cpp.o CMakeFiles/gpu_nbody.dir/render.cpp.o -o gpu_nbody

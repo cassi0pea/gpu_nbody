@@ -1,0 +1,4 @@
+# Generated images
+images/
+*.ppm
+*.mp4

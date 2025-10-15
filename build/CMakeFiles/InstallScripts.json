@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cassie/Documents/Code/gpu_nbody/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
