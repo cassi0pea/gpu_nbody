@@ -112,7 +112,7 @@ std::vector<Body> gen_bodies_disk(double n) {
         // v = sqrt(G * M / r) where everything is in your units
         const double G_scaled = G;  // Your calculated G
         double centralMass = bodies[0].mass;
-        double orbitalSpeed = sqrt(G_scaled * centralMass / radius);
+        double orbitalSpeed = sqrt(G_scaled * centralMass / radius)/2;
 
         // Add some eccentricity
         std::uniform_real_distribution<> velocity_variation(0.9, 1.1);

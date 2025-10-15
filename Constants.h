@@ -24,12 +24,12 @@
 #define PARTICLE_BRIGHTNESS 0.55//0.03 for 256/512k, 0.4 for 16k
 #define PARTICLE_SHARPNESS 1.0 // Probably leave this alone
 #define DOT_SIZE 16 // 15  // Range of pixels to render
-#define G 0.006 // gravity
+#define G 0.01 // gravity
 
 #define INNER_RADIUS 0.3
 #define OUTER_RADIUS 1.5 // size of the disk
 #define SYSTEM_SIZE 1.5 // max distance from disk allowed
-#define RENDER_SCALE 1.5 // zoom level -- shrink to zoom in
+#define RENDER_SCALE 3.5 // zoom level -- shrink to zoom in
 
 
 #endif //GPU_NBODY_CONSTANTS_H
