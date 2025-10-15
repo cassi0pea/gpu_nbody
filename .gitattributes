@@ -1,0 +1,4 @@
+# Ignore generated files in language stats
+Makefile linguist-generated=true
+*.cmake linguist-generated=true
+CMakeCache.txt linguist-generated=true
