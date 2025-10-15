@@ -20,6 +20,7 @@ int main(int argc, char * argv[]){
         return 0;
     }
 
+    system("rm images/*");
 
     // create the simulation. all data generation happens in there
     Simulation sim = Simulation();
