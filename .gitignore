@@ -2,3 +2,4 @@
 images/
 *.ppm
 *.mp4
+/cmake-build-debug
