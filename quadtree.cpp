@@ -265,8 +265,10 @@ vec2 Quadtree::accel(vec2& body_pos) {
     while (true) {
        //printf("calculating acceleration for node %zu \n", node);
        Node& n = nodes[node];
-       vec2 dist(n.centm.x - body_pos.x, n.centm.y - body_pos.y);
 
+       // distance to the center of mass
+       vec2 dist(n.centm.x - body_pos.x, n.centm.y - body_pos.y);
+        //TODO: add distance to center of charge
        // distance squared
        double dist_sq = dist.mag_sq();
 
@@ -279,7 +281,7 @@ vec2 Quadtree::accel(vec2& body_pos) {
             // prevents infinite forces
 
             accel = accel + (dist * std::min(G * n.mass/denom, std::numeric_limits<double>::max()));
-            //accel = accel + (dist * (G * n.mass / denom));
+            //accel = (dist * (G * n.mass / denom));
 
             // if there is no next node -- i.e. if we have reached the end of the tree -- break
             // otherwise, set the node to the next node and loop

@@ -18,13 +18,24 @@
 #define RANDOM_BODY_MASS 0 // Whether or not to randomize body mass -- initialized to "no"
 #define THETA 1     // the barnes-hut approximation factor
 #define EPSILON 1   // a "smoothing variable". not really sure what it does.
+#define PI 3.1415926535
+#define G 0.01 // gravity scaled for our space and mass constants
+
+/// Electric constants
+#define CHARGED_PARTICLES 0 // whether or not to give generated bodies electric charge
+
+// the tricky thing here is that we picked a spacial unit that makes sense for astronomical bodies, but that's implicitly
+// not what we're using for the electrostatic attraction
+// because if it was the electrostatic forces would be super tiny UNLESS the charges were fuckoff gigantic
+
+// another problem is that coloumbs law apparently isn't sound for quickly moving bodies
+
 
 #define MAX_VEL_COLOR 40.0  // Both in km/s
 #define MIN_VEL_COLOR 14.0
 #define PARTICLE_BRIGHTNESS 0.55//0.03 for 256/512k, 0.4 for 16k
 #define PARTICLE_SHARPNESS 1.0 // Probably leave this alone
 #define DOT_SIZE 16 // 15  // Range of pixels to render
-#define G 0.01 // gravity
 
 #define INNER_RADIUS 0.3
 #define OUTER_RADIUS 1.5 // size of the disk

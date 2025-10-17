@@ -13,7 +13,16 @@
 #include "render.h"
 
 
-
+// I wanna implement charged particles
+/*  We could do this by assigning half of the bodies a positive charge, the other half a negative charge
+ *  then calculating attraction / repulsion according to whatever laws govern that sort of thing
+ *  in order to preserve barnes-hut performance gains we also need some notion of a "center of charge"
+ *
+ *  currently, mass is a value in our special units, and we have some logic for when that sort of thing is inherited
+ *  i *thinnk* charge actually works the same way tbh -- in couloumbs, maybe
+ *  so we give
+ *
+ */
 int main(int argc, char * argv[]){
     if (argc < 2) {
         std::cerr << "Error: Please provide a number of frames for the simulation to generate \n";

@@ -42,6 +42,7 @@ void Simulation::attract() {
 
     ygg.propogate();
 
+    // TODO: GPU parelelize this
     #pragma omp parallel for
     for (Body& body : bodies) {
         body.accel = ygg.accel(body.pos);
