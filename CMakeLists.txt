@@ -14,16 +14,16 @@ else()
 endif()
 
 add_executable(gpu_nbody
-        quadtree.cpp
-        nbody_main.cpp
-        Constants.h
-        quadtree.h
-        simulation.cpp
-        utils.cpp
-        render.cpp
-        render.h
-        simulation.h
-        utils.h)
+        src/quadtree.cpp
+        src/nbody_main.cpp
+        src/Constants.h
+        src/quadtree.h
+        src/simulation.cpp
+        src/utils.cpp
+        src/render.cpp
+        src/render.h
+        src/simulation.h
+        src/utils.h)
 
 # Link OpenMP if found
 if(OpenMP_CXX_FOUND)
