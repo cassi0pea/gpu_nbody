@@ -3,11 +3,11 @@ gpu_nbody: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtoffloadbegin.o \
-  CMakeFiles/gpu_nbody.dir/quadtree.cpp.o \
-  CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o \
-  CMakeFiles/gpu_nbody.dir/simulation.cpp.o \
-  CMakeFiles/gpu_nbody.dir/utils.cpp.o \
-  CMakeFiles/gpu_nbody.dir/render.cpp.o \
+  CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o \
+  CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o \
+  CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o \
+  CMakeFiles/gpu_nbody.dir/src/utils.cpp.o \
+  CMakeFiles/gpu_nbody.dir/src/render.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
@@ -47,15 +47,15 @@ gpu_nbody: \
 
 /usr/lib/gcc/x86_64-linux-gnu/14/crtoffloadbegin.o:
 
-CMakeFiles/gpu_nbody.dir/quadtree.cpp.o:
+CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o:
 
-CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o:
+CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o:
 
-CMakeFiles/gpu_nbody.dir/simulation.cpp.o:
+CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o:
 
-CMakeFiles/gpu_nbody.dir/utils.cpp.o:
+CMakeFiles/gpu_nbody.dir/src/utils.cpp.o:
 
-CMakeFiles/gpu_nbody.dir/render.cpp.o:
+CMakeFiles/gpu_nbody.dir/src/render.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so:
 

@@ -136,125 +136,125 @@ gpu_nbody/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/build
 .PHONY : gpu_nbody/fast
 
-nbody_main.o: nbody_main.cpp.o
-.PHONY : nbody_main.o
+src/nbody_main.o: src/nbody_main.cpp.o
+.PHONY : src/nbody_main.o
 
 # target to build an object file
-nbody_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o
-.PHONY : nbody_main.cpp.o
+src/nbody_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o
+.PHONY : src/nbody_main.cpp.o
 
-nbody_main.i: nbody_main.cpp.i
-.PHONY : nbody_main.i
+src/nbody_main.i: src/nbody_main.cpp.i
+.PHONY : src/nbody_main.i
 
 # target to preprocess a source file
-nbody_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/nbody_main.cpp.i
-.PHONY : nbody_main.cpp.i
+src/nbody_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.i
+.PHONY : src/nbody_main.cpp.i
 
-nbody_main.s: nbody_main.cpp.s
-.PHONY : nbody_main.s
+src/nbody_main.s: src/nbody_main.cpp.s
+.PHONY : src/nbody_main.s
 
 # target to generate assembly for a file
-nbody_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/nbody_main.cpp.s
-.PHONY : nbody_main.cpp.s
+src/nbody_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.s
+.PHONY : src/nbody_main.cpp.s
 
-quadtree.o: quadtree.cpp.o
-.PHONY : quadtree.o
+src/quadtree.o: src/quadtree.cpp.o
+.PHONY : src/quadtree.o
 
 # target to build an object file
-quadtree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/quadtree.cpp.o
-.PHONY : quadtree.cpp.o
+src/quadtree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o
+.PHONY : src/quadtree.cpp.o
 
-quadtree.i: quadtree.cpp.i
-.PHONY : quadtree.i
+src/quadtree.i: src/quadtree.cpp.i
+.PHONY : src/quadtree.i
 
 # target to preprocess a source file
-quadtree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/quadtree.cpp.i
-.PHONY : quadtree.cpp.i
+src/quadtree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.i
+.PHONY : src/quadtree.cpp.i
 
-quadtree.s: quadtree.cpp.s
-.PHONY : quadtree.s
+src/quadtree.s: src/quadtree.cpp.s
+.PHONY : src/quadtree.s
 
 # target to generate assembly for a file
-quadtree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/quadtree.cpp.s
-.PHONY : quadtree.cpp.s
+src/quadtree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.s
+.PHONY : src/quadtree.cpp.s
 
-render.o: render.cpp.o
-.PHONY : render.o
+src/render.o: src/render.cpp.o
+.PHONY : src/render.o
 
 # target to build an object file
-render.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/render.cpp.o
-.PHONY : render.cpp.o
+src/render.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/render.cpp.o
+.PHONY : src/render.cpp.o
 
-render.i: render.cpp.i
-.PHONY : render.i
+src/render.i: src/render.cpp.i
+.PHONY : src/render.i
 
 # target to preprocess a source file
-render.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/render.cpp.i
-.PHONY : render.cpp.i
+src/render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/render.cpp.i
+.PHONY : src/render.cpp.i
 
-render.s: render.cpp.s
-.PHONY : render.s
+src/render.s: src/render.cpp.s
+.PHONY : src/render.s
 
 # target to generate assembly for a file
-render.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/render.cpp.s
-.PHONY : render.cpp.s
+src/render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/render.cpp.s
+.PHONY : src/render.cpp.s
 
-simulation.o: simulation.cpp.o
-.PHONY : simulation.o
+src/simulation.o: src/simulation.cpp.o
+.PHONY : src/simulation.o
 
 # target to build an object file
-simulation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/simulation.cpp.o
-.PHONY : simulation.cpp.o
+src/simulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o
+.PHONY : src/simulation.cpp.o
 
-simulation.i: simulation.cpp.i
-.PHONY : simulation.i
+src/simulation.i: src/simulation.cpp.i
+.PHONY : src/simulation.i
 
 # target to preprocess a source file
-simulation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/simulation.cpp.i
-.PHONY : simulation.cpp.i
+src/simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/simulation.cpp.i
+.PHONY : src/simulation.cpp.i
 
-simulation.s: simulation.cpp.s
-.PHONY : simulation.s
+src/simulation.s: src/simulation.cpp.s
+.PHONY : src/simulation.s
 
 # target to generate assembly for a file
-simulation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/simulation.cpp.s
-.PHONY : simulation.cpp.s
+src/simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/simulation.cpp.s
+.PHONY : src/simulation.cpp.s
 
-utils.o: utils.cpp.o
-.PHONY : utils.o
+src/utils.o: src/utils.cpp.o
+.PHONY : src/utils.o
 
 # target to build an object file
-utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/utils.cpp.o
-.PHONY : utils.cpp.o
+src/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/utils.cpp.o
+.PHONY : src/utils.cpp.o
 
-utils.i: utils.cpp.i
-.PHONY : utils.i
+src/utils.i: src/utils.cpp.i
+.PHONY : src/utils.i
 
 # target to preprocess a source file
-utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/utils.cpp.i
-.PHONY : utils.cpp.i
+src/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
 
-utils.s: utils.cpp.s
-.PHONY : utils.s
+src/utils.s: src/utils.cpp.s
+.PHONY : src/utils.s
 
 # target to generate assembly for a file
-utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/utils.cpp.s
-.PHONY : utils.cpp.s
+src/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpu_nbody.dir/build.make CMakeFiles/gpu_nbody.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
 
 # Help Target
 help:
@@ -266,21 +266,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... gpu_nbody"
-	@echo "... nbody_main.o"
-	@echo "... nbody_main.i"
-	@echo "... nbody_main.s"
-	@echo "... quadtree.o"
-	@echo "... quadtree.i"
-	@echo "... quadtree.s"
-	@echo "... render.o"
-	@echo "... render.i"
-	@echo "... render.s"
-	@echo "... simulation.o"
-	@echo "... simulation.i"
-	@echo "... simulation.s"
-	@echo "... utils.o"
-	@echo "... utils.i"
-	@echo "... utils.s"
+	@echo "... src/nbody_main.o"
+	@echo "... src/nbody_main.i"
+	@echo "... src/nbody_main.s"
+	@echo "... src/quadtree.o"
+	@echo "... src/quadtree.i"
+	@echo "... src/quadtree.s"
+	@echo "... src/render.o"
+	@echo "... src/render.i"
+	@echo "... src/render.s"
+	@echo "... src/simulation.o"
+	@echo "... src/simulation.i"
+	@echo "... src/simulation.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 .PHONY : help
 
 

@@ -72,92 +72,92 @@ include CMakeFiles/gpu_nbody.dir/flags.make
 CMakeFiles/gpu_nbody.dir/codegen:
 .PHONY : CMakeFiles/gpu_nbody.dir/codegen
 
-CMakeFiles/gpu_nbody.dir/quadtree.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
-CMakeFiles/gpu_nbody.dir/quadtree.cpp.o: /home/cassie/Documents/Code/gpu_nbody/quadtree.cpp
-CMakeFiles/gpu_nbody.dir/quadtree.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gpu_nbody.dir/quadtree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/quadtree.cpp.o -MF CMakeFiles/gpu_nbody.dir/quadtree.cpp.o.d -o CMakeFiles/gpu_nbody.dir/quadtree.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/quadtree.cpp
+CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
+CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o: /home/cassie/Documents/Code/gpu_nbody/src/quadtree.cpp
+CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o -MF CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o.d -o CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/src/quadtree.cpp
 
-CMakeFiles/gpu_nbody.dir/quadtree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/quadtree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/quadtree.cpp > CMakeFiles/gpu_nbody.dir/quadtree.cpp.i
+CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/src/quadtree.cpp > CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.i
 
-CMakeFiles/gpu_nbody.dir/quadtree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/quadtree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/quadtree.cpp -o CMakeFiles/gpu_nbody.dir/quadtree.cpp.s
+CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/src/quadtree.cpp -o CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.s
 
-CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
-CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o: /home/cassie/Documents/Code/gpu_nbody/nbody_main.cpp
-CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o -MF CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o.d -o CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/nbody_main.cpp
+CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
+CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o: /home/cassie/Documents/Code/gpu_nbody/src/nbody_main.cpp
+CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o -MF CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o.d -o CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/src/nbody_main.cpp
 
-CMakeFiles/gpu_nbody.dir/nbody_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/nbody_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/nbody_main.cpp > CMakeFiles/gpu_nbody.dir/nbody_main.cpp.i
+CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/src/nbody_main.cpp > CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.i
 
-CMakeFiles/gpu_nbody.dir/nbody_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/nbody_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/nbody_main.cpp -o CMakeFiles/gpu_nbody.dir/nbody_main.cpp.s
+CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/src/nbody_main.cpp -o CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.s
 
-CMakeFiles/gpu_nbody.dir/simulation.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
-CMakeFiles/gpu_nbody.dir/simulation.cpp.o: /home/cassie/Documents/Code/gpu_nbody/simulation.cpp
-CMakeFiles/gpu_nbody.dir/simulation.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gpu_nbody.dir/simulation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/simulation.cpp.o -MF CMakeFiles/gpu_nbody.dir/simulation.cpp.o.d -o CMakeFiles/gpu_nbody.dir/simulation.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/simulation.cpp
+CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
+CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o: /home/cassie/Documents/Code/gpu_nbody/src/simulation.cpp
+CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o -MF CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o.d -o CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/src/simulation.cpp
 
-CMakeFiles/gpu_nbody.dir/simulation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/simulation.cpp > CMakeFiles/gpu_nbody.dir/simulation.cpp.i
+CMakeFiles/gpu_nbody.dir/src/simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/src/simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/src/simulation.cpp > CMakeFiles/gpu_nbody.dir/src/simulation.cpp.i
 
-CMakeFiles/gpu_nbody.dir/simulation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/simulation.cpp -o CMakeFiles/gpu_nbody.dir/simulation.cpp.s
+CMakeFiles/gpu_nbody.dir/src/simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/src/simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/src/simulation.cpp -o CMakeFiles/gpu_nbody.dir/src/simulation.cpp.s
 
-CMakeFiles/gpu_nbody.dir/utils.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
-CMakeFiles/gpu_nbody.dir/utils.cpp.o: /home/cassie/Documents/Code/gpu_nbody/utils.cpp
-CMakeFiles/gpu_nbody.dir/utils.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gpu_nbody.dir/utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/utils.cpp.o -MF CMakeFiles/gpu_nbody.dir/utils.cpp.o.d -o CMakeFiles/gpu_nbody.dir/utils.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/utils.cpp
+CMakeFiles/gpu_nbody.dir/src/utils.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
+CMakeFiles/gpu_nbody.dir/src/utils.cpp.o: /home/cassie/Documents/Code/gpu_nbody/src/utils.cpp
+CMakeFiles/gpu_nbody.dir/src/utils.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gpu_nbody.dir/src/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/src/utils.cpp.o -MF CMakeFiles/gpu_nbody.dir/src/utils.cpp.o.d -o CMakeFiles/gpu_nbody.dir/src/utils.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/src/utils.cpp
 
-CMakeFiles/gpu_nbody.dir/utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/utils.cpp > CMakeFiles/gpu_nbody.dir/utils.cpp.i
+CMakeFiles/gpu_nbody.dir/src/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/src/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/src/utils.cpp > CMakeFiles/gpu_nbody.dir/src/utils.cpp.i
 
-CMakeFiles/gpu_nbody.dir/utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/utils.cpp -o CMakeFiles/gpu_nbody.dir/utils.cpp.s
+CMakeFiles/gpu_nbody.dir/src/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/src/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/src/utils.cpp -o CMakeFiles/gpu_nbody.dir/src/utils.cpp.s
 
-CMakeFiles/gpu_nbody.dir/render.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
-CMakeFiles/gpu_nbody.dir/render.cpp.o: /home/cassie/Documents/Code/gpu_nbody/render.cpp
-CMakeFiles/gpu_nbody.dir/render.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gpu_nbody.dir/render.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/render.cpp.o -MF CMakeFiles/gpu_nbody.dir/render.cpp.o.d -o CMakeFiles/gpu_nbody.dir/render.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/render.cpp
+CMakeFiles/gpu_nbody.dir/src/render.cpp.o: CMakeFiles/gpu_nbody.dir/flags.make
+CMakeFiles/gpu_nbody.dir/src/render.cpp.o: /home/cassie/Documents/Code/gpu_nbody/src/render.cpp
+CMakeFiles/gpu_nbody.dir/src/render.cpp.o: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cassie/Documents/Code/gpu_nbody/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gpu_nbody.dir/src/render.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gpu_nbody.dir/src/render.cpp.o -MF CMakeFiles/gpu_nbody.dir/src/render.cpp.o.d -o CMakeFiles/gpu_nbody.dir/src/render.cpp.o -c /home/cassie/Documents/Code/gpu_nbody/src/render.cpp
 
-CMakeFiles/gpu_nbody.dir/render.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/render.cpp > CMakeFiles/gpu_nbody.dir/render.cpp.i
+CMakeFiles/gpu_nbody.dir/src/render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gpu_nbody.dir/src/render.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cassie/Documents/Code/gpu_nbody/src/render.cpp > CMakeFiles/gpu_nbody.dir/src/render.cpp.i
 
-CMakeFiles/gpu_nbody.dir/render.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/render.cpp -o CMakeFiles/gpu_nbody.dir/render.cpp.s
+CMakeFiles/gpu_nbody.dir/src/render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gpu_nbody.dir/src/render.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cassie/Documents/Code/gpu_nbody/src/render.cpp -o CMakeFiles/gpu_nbody.dir/src/render.cpp.s
 
 # Object files for target gpu_nbody
 gpu_nbody_OBJECTS = \
-"CMakeFiles/gpu_nbody.dir/quadtree.cpp.o" \
-"CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o" \
-"CMakeFiles/gpu_nbody.dir/simulation.cpp.o" \
-"CMakeFiles/gpu_nbody.dir/utils.cpp.o" \
-"CMakeFiles/gpu_nbody.dir/render.cpp.o"
+"CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o" \
+"CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o" \
+"CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o" \
+"CMakeFiles/gpu_nbody.dir/src/utils.cpp.o" \
+"CMakeFiles/gpu_nbody.dir/src/render.cpp.o"
 
 # External object files for target gpu_nbody
 gpu_nbody_EXTERNAL_OBJECTS =
 
-gpu_nbody: CMakeFiles/gpu_nbody.dir/quadtree.cpp.o
-gpu_nbody: CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o
-gpu_nbody: CMakeFiles/gpu_nbody.dir/simulation.cpp.o
-gpu_nbody: CMakeFiles/gpu_nbody.dir/utils.cpp.o
-gpu_nbody: CMakeFiles/gpu_nbody.dir/render.cpp.o
+gpu_nbody: CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o
+gpu_nbody: CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o
+gpu_nbody: CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o
+gpu_nbody: CMakeFiles/gpu_nbody.dir/src/utils.cpp.o
+gpu_nbody: CMakeFiles/gpu_nbody.dir/src/render.cpp.o
 gpu_nbody: CMakeFiles/gpu_nbody.dir/build.make
 gpu_nbody: CMakeFiles/gpu_nbody.dir/compiler_depend.ts
 gpu_nbody: CMakeFiles/gpu_nbody.dir/link.txt

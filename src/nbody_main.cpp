@@ -23,7 +23,11 @@
  *  so we give
  *
  */
+
 int main(int argc, char * argv[]){
+    std::cout << std::unitbuf;  // Disable buffering for cout (for wrapper)
+
+
     if (argc < 2) {
         std::cerr << "Error: Please provide a number of frames for the simulation to generate \n";
         return 0;

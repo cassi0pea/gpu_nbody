@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/cassie/Documents/Code/gpu_nbody/nbody_main.cpp" "CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/nbody_main.cpp.o.d"
-  "/home/cassie/Documents/Code/gpu_nbody/quadtree.cpp" "CMakeFiles/gpu_nbody.dir/quadtree.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/quadtree.cpp.o.d"
-  "/home/cassie/Documents/Code/gpu_nbody/render.cpp" "CMakeFiles/gpu_nbody.dir/render.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/render.cpp.o.d"
-  "/home/cassie/Documents/Code/gpu_nbody/simulation.cpp" "CMakeFiles/gpu_nbody.dir/simulation.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/simulation.cpp.o.d"
-  "/home/cassie/Documents/Code/gpu_nbody/utils.cpp" "CMakeFiles/gpu_nbody.dir/utils.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/utils.cpp.o.d"
+  "/home/cassie/Documents/Code/gpu_nbody/src/nbody_main.cpp" "CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/src/nbody_main.cpp.o.d"
+  "/home/cassie/Documents/Code/gpu_nbody/src/quadtree.cpp" "CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/src/quadtree.cpp.o.d"
+  "/home/cassie/Documents/Code/gpu_nbody/src/render.cpp" "CMakeFiles/gpu_nbody.dir/src/render.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/src/render.cpp.o.d"
+  "/home/cassie/Documents/Code/gpu_nbody/src/simulation.cpp" "CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/src/simulation.cpp.o.d"
+  "/home/cassie/Documents/Code/gpu_nbody/src/utils.cpp" "CMakeFiles/gpu_nbody.dir/src/utils.cpp.o" "gcc" "CMakeFiles/gpu_nbody.dir/src/utils.cpp.o.d"
   "" "gpu_nbody" "gcc" "CMakeFiles/gpu_nbody.dir/link.d"
   )
 

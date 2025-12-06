@@ -5,13 +5,13 @@
 #ifndef GPU_NBODY_CONSTANTS_H
 #define GPU_NBODY_CONSTANTS_H
 
-#define WIDTH	1024*2 // Image render width
-#define HEIGHT	1024*2 // Image render height
+#define WIDTH	2048 // Image render width
+#define HEIGHT	2048 // Image render height
     // I do eventually want this to run in real time, but this'll still be useful for that
 
 #define SPACE_UNIT 1.5e11 // fundemental unit of distance -- about one AU
 #define MASS_UNIT  4e22 // fundemental unit of mass -- in this case, in kg, a little under the weight of a mole of moles, or about half the mass of the moon
-#define NUM_BODIES (1e5) // Number of bodies -- goal is 1e9, or a billion bodies
+#define NUM_BODIES (10000) // Number of bodies -- goal is 1e9, or a billion bodies
 #define BODY_MIN_MASS (1024*1) // Minimum value for the mass of a body in Kg
 #define BODY_MAX_MASS (1024*64) // Maximum value for the mass of a body in Kg
 #define BODY_FIXED_MASS MASS_UNIT // Just a fixed mass value, for a simpler first version
