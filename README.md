@@ -11,7 +11,11 @@ For the python wrapper, the only dependencies are Tkinter and pillow. For the un
 
 ## Installation and running
 
-To install, clone the repository. To run, simply run the python wrapper. Should be self-explanatory from there
+To install, clone the repository. To run, simply run the python wrapper found in the source folder with:
+```
+python3 wrapper.py
+```
+If for whatever reason that doesn't work, go into /build and run the "make" command. that should generate the executable and you can run it like that on default settings
 
 ## Algorithm Details
 As mentioned, this project is an implementation of the Barnes-Hut algorithm, which is an optimization algorithm for an n-body gravitational simulation utilizing a quadtree. On the face of things, an n-body sim is really really easy: simply have a list of all bodies in the sim, and on each step, go through the list and apply a gravitational attraction calculation between each pair of bodies. In practice though, this very quickly becomes insanely expensive to compute due to exponential growth, so most simulators use some kind of approximation algorithm such as this one. 
